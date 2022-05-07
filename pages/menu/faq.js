@@ -1,7 +1,10 @@
+import Faq from '@/components/menu/Faq'
 import React from 'react'
 
-export default function faq() {
+export default function faqPage() {
   return (
-    <div>faq</div>
+    <div>
+      <Faq/>
+    </div>
   )
 }

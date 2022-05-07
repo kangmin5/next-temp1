@@ -1,11 +1,10 @@
+import About from '@/components/menu/About'
 import React from 'react'
-import styles from '@/styles/about.module.css'
 
-
-export default function about() {
+export default function aboutPage() {
   return (
-    <div className={styles.container}>
-      about
+    <div >
+      <About/>
     </div>
   )
 }

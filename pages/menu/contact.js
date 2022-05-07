@@ -1,7 +1,10 @@
+import Contact from '@/components/menu/Contact'
 import React from 'react'
 
-export default function contact() {
+export default function contactPage() {
   return (
-    <div>contact</div>
+    <div>
+      <Contact/>
+    </div>
   )
 }

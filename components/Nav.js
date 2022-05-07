@@ -15,8 +15,8 @@ export default function Nav() {
               <Link href='/menu/contact'>Contact</Link>
           </div>
           <div className={styles.loginMenu}>
-              <Link href='/menu/login'>로그인</Link>
-          <Link href='/menu/register' >회원가입</Link>
+              <Link href='/auth/login'>로그인</Link>
+          <Link href='/auth/register' >회원가입</Link>
           </div>
       </div>
     </div>
